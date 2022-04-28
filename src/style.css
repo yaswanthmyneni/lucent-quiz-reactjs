@@ -14,3 +14,11 @@ body {
   min-height: 100vh;
   position: relative;
 }
+
+.cursor {
+  cursor: pointer;
+}
+
+.main {
+  margin: 1rem 3rem;
+}
