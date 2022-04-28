@@ -1,0 +1,16 @@
+:root {
+  --z-index-header-5: 5;
+}
+
+body {
+  margin: 0rem;
+  background-color: var(--color-main-bg);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+}
