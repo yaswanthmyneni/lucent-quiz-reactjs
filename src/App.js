@@ -1,7 +1,13 @@
+import { Routing, Navigation } from "components";
 import "./style.css";
 
 function App() {
-  return <h1>Hello Quiz App</h1>;
+  return (
+    <>
+      <Navigation />
+      <Routing />
+    </>
+  );
 }
 
 export default App;
