@@ -1,0 +1,31 @@
+.question-page-main {
+  width: 45%;
+  margin: 1rem auto;
+}
+
+.question-page-main button {
+  margin: 8px 0;
+  padding: 1em;
+  border-radius: 14px;
+}
+
+.flex-end p {
+  display: flex;
+  gap: 0.5em;
+  align-items: center;
+}
+
+.flex a {
+  text-decoration: none;
+  color: var(--color-black);
+  margin: 0 1rem;
+}
+
+.m-b-2rem {
+  margin-bottom: 2rem;
+}
+
+.answered-option-color {
+  background-color: var(--color-green-800);
+  color: var(--color-white);
+}
