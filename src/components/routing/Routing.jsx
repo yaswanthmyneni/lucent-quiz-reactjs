@@ -1,4 +1,10 @@
-import { CategoryPage, HomePage, RulesPage, QuestionPage } from "pages";
+import {
+  CategoryPage,
+  HomePage,
+  RulesPage,
+  QuestionPage,
+  ResultPage,
+} from "pages";
 import { Routes, Route } from "react-router-dom";
 
 const Routing = () => {
@@ -8,6 +14,7 @@ const Routing = () => {
       <Route path="/categories" element={<CategoryPage />} />
       <Route path="/rules" element={<RulesPage />} />
       <Route path="/quiz" element={<QuestionPage />} />
+      <Route path="/result" element={<ResultPage />} />
     </Routes>
   );
 };

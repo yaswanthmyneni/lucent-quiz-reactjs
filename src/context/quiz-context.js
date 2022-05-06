@@ -36,8 +36,6 @@ const QuizProvider = ({ children }) => {
     categoryList: [],
   });
 
-  console.log(quizState.userAnswers);
-
   const { toastDispatch, getUniqueNumber } = useToastContext();
 
   useEffect(() => {

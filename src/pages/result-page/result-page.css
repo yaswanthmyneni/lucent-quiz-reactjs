@@ -1,0 +1,33 @@
+.result-page-main {
+    width: 45%;
+    margin: 8px auto;
+}
+
+.m-b-4rem {
+    margin-bottom: 4rem;
+}
+
+.answer{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    border-radius: 8px;
+    
+    color: var(--color-white);
+    background-color: var(--color-green-700);
+
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.correct-answer {
+    background-color: var(--color-green-400);
+}
+
+.wrong-answer {
+    background-color: var(--color-red);
+}
+
+.link {
+    text-decoration: none;
+}
