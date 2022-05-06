@@ -1,0 +1,32 @@
+.rules-page-main {
+  margin: 2rem 15rem;
+  padding: 1rem;
+  border: 2px solid var(--color-black);
+  border-radius: 8px;
+}
+
+.image-container {
+  width: 23rem;
+  height: 14rem;
+}
+
+.image-container img {
+  border-radius: 1rem;
+}
+
+.width-16rem {
+  width: 16rem;
+}
+
+.margin-lr-3rem {
+  margin: 0 3rem;
+}
+
+.m-t-2rem {
+  margin-top: 2rem;
+}
+
+.text-center button {
+  margin-top: 8px;
+  padding: 1em 2em;
+}

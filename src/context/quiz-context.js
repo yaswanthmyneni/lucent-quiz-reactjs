@@ -10,7 +10,7 @@ const quizReducer = (state, { type, payload }) => {
     case "SET_USER_ANSWER":
       return {
         ...state,
-        userAnswers: { ...state.userAnswers, [payload[0]]: payload[1] },
+        userAnswers: { ...state.userAnswers, ...payload },
       };
     case "GET_QUESTIONS":
       return {
@@ -36,7 +36,9 @@ const QuizProvider = ({ children }) => {
     categoryList: [],
   });
 
-  const {toastDispatch, getUniqueNumber} = useToastContext();
+  console.log(quizState.userAnswers);
+
+  const { toastDispatch, getUniqueNumber } = useToastContext();
 
   useEffect(() => {
     const getCategories = async () => {
